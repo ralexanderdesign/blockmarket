@@ -12,7 +12,7 @@ An online marketplace running on Ethereum.
 
 2. Download the box. This also takes care of installing the necessary dependencies.
     ```javascript
-    truffle unbox drizzle
+    git clone https://github.com/ralexanderdesign/blockmarket.git
     ```
 
 3. Run the development blockchain with a blocktime. Otherwise, its difficult to track things like loading indicators because Ganache will mine instantly.
