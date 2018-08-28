@@ -1,0 +1,125 @@
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.2;
+  color: white;
+}
+
+/* NAV */
+
+.navbar .logo {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a .fa-circle {
+  color: #fff;
+}
+
+.navbar a:hover .fa-circle {
+  color: transparent;
+  -moz-text-stroke-color: #1997c6;
+  -webkit-text-stroke-color: #1997c6;
+  -moz-text-stroke-width: 1px;  
+  -webkit-text-stroke-width: 1px;
+  transition: all .2s ease-in-out;
+}
+
+.navbar a:hover .fa-inverse {
+  color: #1997c6 !important;
+  transition: all .2s ease-in-out;
+}
+
+.jumbotron.admin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .8)), url('img/louis-hansel-582716-unsplash.jpg');
+  background-position: center center;
+}
+
+/* PURE FORM */
+/* 
+.pure-form {
+  display: inline-block;
+}
+
+.pure-button-primary {
+  background-color: #0c1a2b;
+}
+
+.pure-button-primary:hover {
+  background-color: #233e5e;
+}
+.pure-button {
+  color: transparent;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #1997c6;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: .375rem .75rem;
+  font-size: 0;
+  line-height: 1.5;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+.pure-button:hover {
+  color: #fff;
+  background-color: #111;
+  border-color: #1997c6;
+}
+.pure-button:focus, .pure-button:hover {
+  text-decoration: none;
+}
+.pure-button:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.pure-form input[type="text"]:focus {
+  border-color: #0c1a2b;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li:not(:last-child) {
+  margin-bottom: 15px;
+} */
+
+/* LOADING SCREEN */
+
+.loading-screen {
+  opacity: 1;
+  visibility: visible;
+  transition: all .25s ease-in-out;
+}
+
+.loading-screen.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* ALERTS */
+
+.alert {
+  padding: .5rem;
+  color: darkgreen;
+  background: darkseagreen;
+  border: 1px solid darkgreen;
+}

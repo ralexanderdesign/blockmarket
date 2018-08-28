@@ -1,0 +1,18 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# Setup Files #
+######################
+.env
+node_modules/
+.eslintrc
+.eslintrc.js
+.idea/
+.vscode/
+
+# Build Files #
+######################
+build_webpack/
+
