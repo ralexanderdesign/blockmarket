@@ -5,7 +5,7 @@ import WelcomeFirstUser from '../containers/WelcomeFirstUserContainer';
 import CircuitBreaker from '../containers/CircuitBreakerContainer';
 import ProspectiveMerchants from '../containers/ProspectiveMerchantsContainer';
 import Stores from '../containers/StoresContainer';
-import Products from '../containers/ProductsContainer';
+// import Products from '../containers/ProductsContainer';
 import Orders from '../containers/OrdersContainer';
 
 import logo from '../img/blockmarket_w.svg';

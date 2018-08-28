@@ -272,6 +272,15 @@ contract BlockMarket {
         return true;
     }
 
+    /** @dev Destroy contract and remove it from the blockchain
+    */
+    function kill() 
+        public
+        isAdmin(msg.sender)
+    {
+        selfdestruct(msg.sender);
+    }
+    
     /** @dev Toggle circuit breaker
     */
     function toggleCircuitBreaker() 

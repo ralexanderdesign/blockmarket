@@ -1,6 +1,6 @@
-# Drizzle Truffle Box
+# Block Market
 
-This box comes with everything you need to start using smart contracts from a react app with Drizzle. It includes `drizzle`, `drizzle-react` and `drizzle-react-components` to give you a complete overview of Drizzle's capabilities.
+An online marketplace running on Ethereum.
 
 ## Installation
 
@@ -42,21 +42,3 @@ This box comes with everything you need to start using smart contracts from a re
     ```javascript
     npm run build
     ```
-
-## FAQ
-
-* __Where do I find more information about Drizzle?__
-
-    Check out our [documentation](http://truffleframework.com/docs/drizzle/getting-started) or any of the three repositories ([`drizzle`](https://github.com/trufflesuite/drizzle), [`drizzle-react`](https://github.com/trufflesuite/drizzle-react), [`drizzle-react-components`](https://github.com/trufflesuite/drizzle-react-components)).
-
-* __Why is there both a truffle.js file and a truffle-config.js file?__
-
-    `truffle-config.js` is a copy of `truffle.js` for compatibility with Windows development environments. Feel free to delete it if it's irrelevant to your platform.
-
-* __Where is my production build?__
-
-    The production build will be in the `build_webpack` folder. This is because Truffle outputs contract compilations to the `build` folder.
-
-* __Where can I find more documentation?__
-
-    This box is a marriage of [Truffle](http://truffleframework.com/) and a React setup created with [create-react-app](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md). Either one would be a great place to start!
